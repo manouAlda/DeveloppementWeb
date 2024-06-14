@@ -1,0 +1,261 @@
+
+/*  experience */
+
+.section-experience { margin-block: 80px; }
+
+.section-experience .grid-liste { all: unset;  }
+
+.experience-titre { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.experience-carte {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    padding-block: 30px;
+    margin-block-end: 25px;
+}
+
+/* Lecture chapitre */
+
+.chapitreTitre {
+    font-family: philosopher; 
+    font-size: x-large; 
+    font-weight: 700; 
+    color: #000000;
+}
+
+.contenu-chapitre {
+    font-size: medium; 
+    font-size: large; 
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}
+.page a {
+    width: 25px;
+    border-radius: var(--radius-5);
+    text-align: center;
+}
+.page a:is(:hover, :focus) { 
+    color: #51b0bc; 
+    background: #2e4756;;
+}
+
+/* lire information livre */
+.element {  
+    display: flex;  
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.livre-img {    width: 50%; }
+
+.livre-img img { width: 70%; }
+
+.infos-img { 
+    width: 50%; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.entete-haut ul {
+    display: flex;
+}
+.entete-haut li {
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    border-bottom: 2px solid #51b0bc;
+}
+.contenu-text { padding: 15px; display: none;}
+.contenu-text.active{display: block;}
+
+/* Achat livre */
+
+.format {
+    margin-bottom: 20px;
+    padding: 10px; 
+}
+
+.format select {
+    width: 200px; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+}
+
+.achat {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    padding: 10px;
+    
+}
+
+.achat input[type="number"] {
+    width: 50px; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+}
+
+.ligne {    
+    display: flex; 
+    border-bottom: 1px solid #a5a5a5;
+    padding: 15px;
+    align-items: center;
+}
+
+.ligneInfos { 
+    display: flex; 
+    align-items: center;
+}
+
+.tabEntete {
+    color: #000;
+    font-weight: 600;
+}
+
+.infosAchat { 
+    width: 17%; 
+    text-align: center;
+    position: relative;
+}
+
+.produit { 
+    display: flex;
+    gap: 30px;
+    width: 50%; 
+}
+
+.removeBtn, .removeBtnPanier {
+    border: 1px solid #000;
+    border-radius: var(--radius-5);
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.prixAchat, .prixTotal { 
+    color: #000;
+    font-size: large;
+    font-weight: 500;
+}
+
+.quantite, .quantitePanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 500;
+}
+
+.nbrLivre{ 
+    padding-inline-start: 2px;
+    border: 1px solid #ccc;
+    width: 30%;
+}
+
+.removeBtn:is(:hover, :focus), .removeBtnPanier:is(:hover, :focus) { background: #51b0bc; }
+
+.infosPanier { display: none; }
+
+.infosSuplementaire { display: block; }
+
+.aPropos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding-block: 15px;
+    padding-inline: 10px;
+    border-block: 1px solid #ccc;
+    z-index: 3;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    gap: 25px;
+    color: #000;
+    font-weight: 700;
+}
+
+.revenir {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.troisieme-btn {
+    margin-top: var(--padding);
+    padding-inline: 15px;
+    padding-block: 7px;
+    border: 1px solid #000;
+    border-radius: var(--radius-5);
+}
+
+.troisieme-btn:is(:hover, :focus) {
+    background: #2e4756;
+}
+
+.checkIdClass { display: none; }
+
+.detailEnPlus { transition: var(--transition-1); }
+.detailEnPlus:not(.affiche) { display: none; }
+
+@media (max-width: 408px) {
+    .logo { display: none;}
+    .logo-petit { display: flex; }
+}
+
+@media (max-width: 795px) {
+    .experience-carte {  grid-template-columns: 1fr; }
+    .experience-titre { margin-block: 30px; }
+}
+
+@media (max-width: 750px) {
+    .produit img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 763px) {
+    .element { flex-direction: column; }
+    .livre-img {    width: 100%; }
+    .livre-img img { margin-inline: auto; }
+    .infos-img { width: 100%; }
+    .ligne { display: block; }
+    .tabEntete { display: none;}
+    .ligneInfos { justify-content: space-between; }
+    .prixAchat { display: none; }
+    .removeBtn { display: none; }
+    .quantite { display: none; }
+    .infosPanier { 
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        gap: 25px;
+    }
+    .quantitePanier { gap: 15px; }
+    .removeBtnPanier { margin: 0; }
+    .nbrLivre2 { 
+        border: 1px solid #ccc; 
+        padding-inline-start: 5px;
+    }
+}
+

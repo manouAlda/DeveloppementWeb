@@ -1,0 +1,229 @@
+[
+    {
+        "id": 1,
+        "titre": "A THOUSAND HEARTBEATS",
+        "vente": "ongoing",
+        "image": "/img/AThousandHeartbeats_Final_0708.jpg",
+        "resume": " Princess Annika has lived a life of comfort—but no amount of luxuries can change the fact that her life isn’t her own to control.Miles away, small comforts are few and far between for Lennox.But when love, against all odds, finds them both, they are bound by its call.",
+        "contenu": "Princess Annika has lived a life of comfort—but no amount of luxuries can change the fact that her life isn’t her own to control. Miles away, small comforts are few and far between for Lennox. He has devoted his life to the Dahrainian army, hoping to one day help them reclaim the throne that was stolen from them. But when love, against all odds, finds them both, they are bound by its call. They can’t possibly be together—but the irresistible thrum of a thousand heartbeats won’t let them stay apart. ",
+        "detail": ""
+    },
+    {
+        "id": 2,
+        "titre": "THE SIREN",
+        "vente": "January 26, 2016",
+        "image": "/img/image-asset.jpeg",
+        "resume": "Kahlen is a Siren, bound to serve the Ocean by luring humans to watery graves with her voice, which is deadly to any human who hears it. Akinli is human—a kind, handsome boy who's everything Kahlen ever dreamed of.Will she risk everything to follow her heart?",
+        "contenu": "#1 New York Times bestseller\nA sweeping stand-alone fantasy romance from Kiera Cass, author of the beloved, bestselling Selection series.\nKahlen is a Siren—bound to serve the Ocean by luring humans to their watery graves with her voice, which is deadly to any human who hears it. Akinli is human—a kind, handsome boy who’s everything Kahlen ever dreamed of. Falling in love puts them both in danger… but will Kahlen risk everything to follow her heart?\nThis star-crossed YA romance is sure to captivate readers who grew up loving The Little Mermaid or fans of Jennifer Donnelly’s Waterfire Saga.\nOriginally self-published, The Siren has been completely rewritten and redesigned for this beautiful hardcover edition.\nDon’t miss The Betrothed, a glittering royal romance sure to captivate Kiera Cass’s legion of loyal readers and lovers of courtly intrigue alike!",
+        "detail": "details",
+        "revue": "“A twist on Hans Christian Andersen’s ‘The Little Mermaid’ that romance fans will enjoy.” — School Library Journal\nPRAISE FOR KIERA CASS: “A real page-turner. Romance, royalty, and revolution in a reality-show format serve Cass’ boldly rendered heroine well in her quest for justice and love.” — ALA Booklis\\n“An engrossing tale reminiscent of Shannon Hale’s Princess Academy and Ally Condie’s Matched. Fairy-tale lovers will lose themselves in America’s alternate reality and wish that the next glamorous sequel were waiting for them.” — School Library Journa\\n“Deliciously entertaining.” — Publishers Weekl\\n“Cass’s immensely readable debut novel is a less drastic Hunger Games, with elaborate fashion and trappings. The fast-paced action will have readers gasping for the upcoming sequel.” — ALA Booklis\\n“A cross between The Hunger Games (minus the bloodsport) and The Bachelor (minus the bloodsport), this trilogy launch is a lot of fun. Cass deftly builds the chemistry between America and Maxon, while stoking the embers of America’s first, forbidden love.” — Publishers Weekly",
+        "paperback": {
+            "prix": "$12.79",
+            "detail":"ISBN: 9780062392008\nISBN 10: 006239200X\nImprint: HarperTeen\nOn Sale: May 2, 2017\nPages: 352 pages\n$15.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Fairy Tales & Folklore / General *\nBISAC3: YOUNG ADULT FICTION: Fantasy / General * "
+        },
+        "hardcover" : {
+            "prix":"$18.99",
+            "detail": "ISBN: 9780062391995\nISBN 10: 0062391992\nImprint: HarperTeen\nOn Sale: January 26, 2016\nPages: 336 pages\n$18.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Fairy Tales & Folklore / General *\nBISAC3: YOUNG ADULT FICTION: Fantasy / General *"
+        },
+        "ebook" : {
+            "prix":"$13.99 ",
+            "detail": "ISBN: 9780062392015\nISBN 10: 0062392018\nImprint: HarperTeen\nOn Sale: January 26, 2016\nPages: 352 pages\nList Price: $13.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Fairy Tales & Folklore / General *\nBISAC3: YOUNG ADULT FICTION: Fantasy / General *  "
+        }
+    },
+    {
+        "id": 3,
+        "titre": "THE BETRAYED",
+        "vente": "ongoing",
+        "image": "/img/Betrayed-HC_final-678x1024.jpg",
+        "resume": "After fleeing Coroa and leaving the memory of her beloved Silas behind, Hollis is unsteadily adjusting to life in Isolte. The Eastoffe family’s affection is a balm on her weary spirit, though Etan, a surly cousin with a deep distaste for Coroans, threatens to upset the uneasy peace she’s found. ",
+        "contenu": "After fleeing Coroa and leaving the memory of her beloved Silas behind, Hollis is unsteadily adjusting to life in Isolte. The Eastoffe family’s affection is a balm on her weary spirit, though Etan, a surly cousin with a deep distaste for Coroans, threatens to upset the uneasy peace she’s found. While tensions at home ratchet up, disquiet in the kingdom of Isolte is reaching a fever pitch. The Eastoffes may have the power to unseat a tyrannical king - but only with Hollis’ help. Can a girl who’s lost it all put the fate of her adopted homeland over the secret longings of her heart?",
+        "detail":""
+    },
+    {
+        "id": 4,
+        "titre": "THE BETROTHED",
+        "vente": "May 5, 2020",
+        "image": "/img/CassBetrothedHC.jpg",
+        "tag": "The instant #1 New York Times bestseller from the bestselling author of the Selection series! \n\nKiera Cass is back with a glittering royal romance sure to captivate her legion of loyal readers and lovers of courtly intrigue alike.",
+        "resume": "When King Jameson declares his love for Lady Hollis Brite, Hollis is shocked—and thrilled.Capturing his heart is a dream come true. But Hollis soon realizes that falling in love with a king and being crowned queen may not be the happily ever after she thought. ",
+        "contenu": "A would-be queen. A handsome young king. A perfect match…or is it?\nWhen King Jameson declares his love for Lady Hollis Brite, Hollis is shocked—and thrilled. After all, she’s grown up at Keresken Castle, vying for the king’s attention alongside other daughters of the nobility. Capturing his heart is a dream come true.\nBut Hollis soon realizes that falling in love with a king and being crowned queen may not be the happily ever after she thought it would be. And when she meets a commoner with the mysterious power to see right into her heart, she finds that the future she really wants is one that she never thought to imagine.",
+        "detail": "details ",
+        "revue": "'Fans of The Selection series will anxiously await the second installment of this duology to learn Hollis’s fate.' — School Library Journal\n'A headstrong heroine whom Cass’s loyal following will champion.' — Publishers Weekl\n-",
+        "paperback": {
+            "prix": "$10.39",
+            "detail":"ISBN: 9780062291646\nISBN 10: 0062291645\nImprint: HarperTeen\nOn Sale: June 1, 2021\nPages: 336 pages\n$12.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Royalty *\nBISAC3: YOUNG ADULT FICTION: Social Themes / Friendship *\nBISAC4: YOUNG ADULT FICTION: Girls & Women * "
+        },
+        "hardcover" : {
+            "prix":"$15.99",
+            "detail": "ISBN: 9780062291639\nISBN 10: 0062291637\nImprint: HarperTeen\nOn Sale: May 5, 2020\nPages: 320 pages\n$19.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Royalty *\nBISAC3: YOUNG ADULT FICTION: Social Themes / Friendship *\nBISAC4: YOUNG ADULT FICTION: Girls & Women *  "
+        },
+        "ebook" : {
+            "prix":"$11.99",
+            "detail": "ISBN: 9780062291653\nISBN 10: 0062291653\nImprint: HarperTeen\nOn Sale: May 5, 2020\nPages: 336 pages\nList Price: $11.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Royalty *\nBISAC3: YOUNG ADULT FICTION: Social Themes / Friendship *\nBISAC4: YOUNG ADULT FICTION: Girls & Women * "
+        }
+    },
+    {
+        "id": 5,
+        "titre": "HAPPILY EVER AFTER",
+        "image": "/img/happily.jpeg",
+        "vente": "October 13, 2015",
+        "resume":"This gorgeous collection features four novellas from the captivating world of Kiera Cass’s #1 New York Times bestselling Selection series—one of which appears here in print for the first time—as well as exclusive, never-before-seen bonus content.    ",
+        "contenu": "Go behind the scenes of Kiera Cass’s #1 bestselling Selection series with this gorgeous collection of novellas and exclusive extras\nMeet Prince Maxon before he fell in love with America, and a girl named Amberly before she became queen. See the Selection through the eyes of a guard who watched his first love drift away and a girl who fell for a boy who wasn’t the prince. This must-have companion to the Selection series includes four novellas—two of which are only available in print in this collection—as well as exclusive bonus content.\nIncludes:\nThe Prince\nThe Guard\nThe Queen (in print only in this collection)\nThe Favorite (in print only in this collection)\nExclusive new scenes from The Selection, The Elite, and The One\nIntroductions to each novella from Kiera Cass\nA map of Illéa and other illustrations\nAnd more!\nDon’t miss The Betrothed, a glittering royal romance sure to captivate Kiera Cass’s legion of loyal readers and lovers of courtly intrigue alike!",
+        "detail": "details ",
+        "revue":"-",
+        "paperback": {
+            "prix": "$10.39",
+            "detail":"ISBN: 9780062484291\nISBN 10: 006248429X\nImprint: HarperTeen\nOn Sale: June 7, 2016\nPages: 416 pages\n$12.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Royalty *\nBISAC3: YOUNG ADULT FICTION: Girls & Women * "
+        },
+        "hardcover" : {
+            "prix":" $15.19",
+            "detail": "ISBN: 9780062414083\nISBN 10: 0062414089\nImprint: HarperTeen\nOn Sale: October 13, 2015\nPages: 416 pages\n$18.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Royalty *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *  "
+        },
+        "ebook" : {
+            "prix":"$11.99",
+            "detail": "ISBN: 9780062414090\nISBN 10: 0062414097\nImprint: HarperTeen\nOn Sale: October 13, 2015\nPages: 416 pages\nList Price: $11.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Romance / General *\nBISAC2: YOUNG ADULT FICTION: Royalty *\nBISAC3: YOUNG ADULT FICTION: Girls & Women * "
+        }
+    },
+    {
+        "id": 6,
+        "titre": "THE CROWN",
+        "vente": "May 3, 2016",
+        "image": "/img/Crown_Final+(1).jpg",
+        "resume": "Eadlyn didn’t think she would find a real partner among the Selection’s thirty-five suitors, let alone true love. But sometimes the heart has a way of surprising you…and now Eadlyn must make a choice that feels more difficult—and more important—than she ever expected.",
+        "contenu": "Kiera Cass’s #1 New York Times bestselling Selection series has captured the hearts of readers from its very first page. Now the end of the journey is here. Prepare to be swept off your feet by The Crown—the eagerly awaited, wonderfully romantic fifth and final book in the Selection series.\n\nIn The Heir, a new era dawned in the world of The Selection. Twenty years have passed since America Singer and Prince Maxon fell in love, and their daughter is the first princess to hold a Selection of her own.\n\nEadlyn didn’t think she would find a real partner among the Selection’s thirty-five suitors, let alone true love. But sometimes the heart has a way of surprising you…and now Eadlyn must make a choice that feels more difficult—and more important—than she ever expected.\n\nDon’t miss The Betrothed, a glittering royal romance sure to captivate Kiera Cass’s legion of loyal readers and lovers of courtly intrigue alike!",
+        "detail":"details",
+        "revue":"    ”\n\nPRAISE FOR THE SELECTION SERIES: 'A real page-turner. Romance, royalty, and revolution in a reality-show format serve Cass”\n-boldly rendered heroine well in her quest for justice and love.' — ALA Booklis\n\n'Reality T.V. meets dystopian fairy tale in Kiera Cass’s delightful debut. Charming, captivating, and filled with just the right amount of swoon!' — Kiersten White, New York Times bestselling author of the Paranormalcy trilog\n\n'An engrossing tale reminiscent of Shannon Hale’s Princess Academy and Ally Condie’s Matched. Fairy-tale lovers will lose themselves in America’s alternate reality and wish that the next glamorous sequel were waiting for them.' — School Library Journa\n\n'Deliciously entertaining.' — Publishers Weekl\n\n'Cass’s immensely readable debut novel is a less drastic Hunger Games, with elaborate fashion and trappings. The fast-paced action will have readers gasping for the upcoming sequel.' — ALA Booklis\n\n'A cross between The Hunger Games (minus the bloodsport) and The Bachelor (minus the bloodsport), this trilogy launch is a lot of fun. Cass deftly builds the chemistry between America and Maxon, while stroking the embers of America’s first, forbidden love.' — Publishers Weekly",
+        "paperback": {
+            "prix": "$11.99",
+            "detail":"ISBN: 9780062392183\nISBN 10: 0062392182\nImprint: HarperTeen\nOn Sale: August 1, 2017\nPages: 304 pages\n$14.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "hardcover" : {
+            "prix":"19.99",
+            "detail": "ISBN: 9780062392176\nISBN 10: 0062392174\nImprint: HarperTeen\nOn Sale: May 3, 2016\nPages: 288 pages\n$19.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "ebook" : {
+            "prix":"$8.99 ",
+            "detail": "ISBN: 9780062392190\nISBN 10: 0062392190\nImprint: HarperTeen\nOn Sale: May 3, 2016\nPages: 304 pages\nList Price: $6.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        }
+    },
+    {
+        "id": 7,
+        "titre": "The Heir",
+        "vente": "May 5, 2015",
+        "image": "/img/TheHeir.jpeg",
+        "resume":"Twenty years ago, America Singer entered the Selection and won Prince Maxon's heart. Now the time has come for Princess Eadlyn to hold a Selection of her own. Eadlyn doesn't expect her Selection to be anything like her parents' fairy-tale love story...but as the competition begins, she may discover that finding her own happily ever after isn't as impossible as she's always thought.",
+        "contenu": "\nA new era dawns in the world of Kiera Cass’s #1 New York Times bestselling Selection series   \nAmerica and Maxon’s fairy-tale romance enchanted readers from the very first page of The Selection. Now find out what happens after happily ever after in this fourth captivating novel, perfect for fans of Veronica Roth’s Divergent, Lauren Oliver’s Delirium, or Renée Ahdieh’s The Wrath & the Dawn.   \nTwenty years ago, America Singer entered the Selection and won Prince Maxon’s heart. Now the time has come for Princess Eadlyn to hold a Selection of her own. Eadlyn doesn’t expect anything like her parents’ fairy-tale love story...but as the competition begins, she may discover that finding her own happily ever after isn’t as impossible as she’s always thought.\nA new generation of swoon-worthy characters and captivating romance awaits in the fourth book of the Selection series!\nDon’t miss The Betrothed, a glittering royal romance sure to captivate Kiera Cass’s legion of loyal readers and lovers of courtly intrigue alike!",
+        "detail":"details",
+        "revue": "    ”\n\nPRAISE FOR KIERA CASS: 'A real page-turner. Romance, royalty, and revolution in a reality-show format serve Cass”\n-boldly rendered heroine well in her quest for justice and love.' — ALA Booklis\n\n'Reality T.V. meets dystopian fairy tale in Kiera Cass’s delightful debut. Charming, captivating, and filled with just the right amount of swoon!' — Kiersten White, New York Times bestselling author of Paranormalc\n\n'An engrossing tale reminiscent of Shannon Hale’s Princess Academy and Ally Condie’s Matched. Fairy-tale lovers will lose themselves in America’s alternate reality and wish that the next glamorous sequel were waiting for them.' — School Library Journa\n\n'Deliciously entertaining.' — Publishers Weekl\n\n'Cass’s immensely readable debut novel is a less drastic Hunger Games, with elaborate fashion and trappings. The fast-paced action will have readers gasping for the upcoming sequel.' — ALA Booklis\n\n'A cross between The Hunger Games (minus the bloodsport) and The Bachelor (minus the bloodsport), this trilogy launch is a lot of fun. Cass deftly builds the chemistry between America and Maxon, while stroking the embers of America’s first, forbidden love.' — Publishers Weekly",
+        "paperback": {
+            "prix": "$10.39",
+            "detail":"ISBN: 9780062349873\nISBN 10: 0062349872\nImprint: HarperTeen\nOn Sale: May 5, 2015\nPages: 384 pages\nList Price: $9.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General *  "
+        },
+        "hardcover" : {
+            "prix":"$15.99",
+            "detail": "ISBN: 9780062349859\nISBN 10: 0062349856\nImprint: HarperTeen\nOn Sale: May 5, 2015\nPages: 368 pages\n$19.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "ebook" : {
+            "prix":"$7.99",
+            "detail": "ISBN: 9780062349873\nISBN 10: 0062349872\nImprint: HarperTeen\nOn Sale: May 5, 2015\nPages: 384 pages\nList Price: $9.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        }
+    },
+    {
+        "id": 8,
+        "titre": "THE ONE",
+        "vente": "May 6, 2014",
+        "image": "/img/theOne.png",
+        "resume":"The Selection changed America Singer's life in ways she never could have imagined.America has struggled with her feelings for her first love, Aspen—and her growing attraction to Prince Maxon. Now she's made her choice...and she's prepared to fight for the future she wants.\nFind out who America will choose in The One, beautifully romantic third book in the Selection series!",
+        "contenu": "The captivating third book in Kiera Cass’s #1 New York Times bestselling Selection series\nAmerica Singer searches for her happily ever after in this swoon-worthy YA dystopian romance, perfect for readers who loved Veronica Roth’s Divergent, Lauren Oliver’s Delirium, or Renée Ahdieh’s The Wrath & the Dawn.\n\nEntering the Selection changed America Singer's life in ways she never could have imagined. Since she arrived at the palace, America has struggled with her feelings for her first love, Aspen—and her growing attraction to Prince Maxon. Now she's made her choice . . . and she's prepared to fight for the future she wants.\n \n\nDon’t miss The Betrothed, a glittering royal romance sure to captivate Kiera Cass’s legion of loyal readers and lovers of courtly intrigue alike!",
+        "detail":"details",
+        "revue":"”\n\n'A real page-turner. Romance, royalty, and revolution in a reality-show format serve Cass”\n-boldly rendered heroine well in her quest for justice and love.' — ALA Booklist",
+        "paperback": {
+            "prix": "$10.39",
+            "detail":"ISBN: 9780062060006\nISBN 10: 0062060007\nImprint: HarperTeen\nOn Sale: May 5, 2015\nPages: 368 pages\n$12.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Girls & Women *\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Dystopian *\nBISAC6: YOUNG ADULT FICTION: Social Themes / Class Differences *\nBISAC7: YOUNG ADULT FICTION: Romance / General *\nBISAC8: YOUNG ADULT FICTION: Social Themes / Friendship *\nBISAC9: YOUNG ADULT FICTION: Fantasy / Romance\nBISAC10: YOUNG ADULT FICTION: Fantasy / Historical * "
+        },
+        "hardcover" : {
+            "prix":" $15.99",
+            "detail": "ISBN: 9780062059994\nISBN 10: 0062059998\nImprint: HarperTeen\nOn Sale: May 6, 2014\nPages: 336 pages\n$19.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Girls & Women *\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Dystopian *\nBISAC6: YOUNG ADULT FICTION: Social Themes / Class Differences *\nBISAC7: YOUNG ADULT FICTION: Romance / General *\nBISAC8: YOUNG ADULT FICTION: Social Themes / Friendship *\nBISAC9: YOUNG ADULT FICTION: Fantasy / Romance\nBISAC10: YOUNG ADULT FICTION: Fantasy / Historical * "
+        },
+        "ebook" : {
+            "prix":"$11.99 ",
+            "detail": "ISBN: 9780062060006\nISBN 10: 0062060007\nImprint: HarperTeen\nOn Sale: May 5, 2015\nPages: 368 pages\n$12.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Girls & Women *\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Dystopian *\nBISAC6: YOUNG ADULT FICTION: Social Themes / Class Differences *\nBISAC7: YOUNG ADULT FICTION: Romance / General *\nBISAC8: YOUNG ADULT FICTION: Social Themes / Friendship *\nBISAC9: YOUNG ADULT FICTION: Fantasy / Romance\nBISAC10: YOUNG ADULT FICTION: Fantasy / Historical * "
+        }
+    },
+    {
+        "id": 9,
+        "titre": "THE ELITE",
+        "vente": "April 23, 2013",
+        "image": "/img/theElite.png",
+        "resume":"America still isn’t sure where her heart lies. When she’s with Maxon, she’s swept up in their new and breathless romance, and can’t dream of being with anyone else. But whenever she sees Aspen standing guard around the palace, she is overcome with memories of the life they planned to share.     ",
+        "contenu": "Features original black-and-white line drawings of favorite characters and moments from the world of Illéa, as well as stunningly designed hand-lettered quotes from all five Selection books, all on perforated pages that can easily be removed and displayed. The Selection Coloring Book is the perfect companion for fans of the Selection series and a captivating journey for any reader who loves a happily ever after.",
+        "detail":"details",
+        "revue":"'Deliciously entertaining.”\n-— Publishers Weekly",
+        "paperback": {
+            "prix": "$10.39",
+            "detail":"ISBN: 9780062392183\nISBN 10: 0062392182\nImprint: HarperTeen\nOn Sale: August 1, 2017\nPages: 304 pages\n$14.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "hardcover" : {
+            "prix":"$15.99",
+            "detail": "ISBN: 9780062392176\nISBN 10: 0062392174\nImprint: HarperTeen\nOn Sale: May 3, 2016\nPages: 288 pages\n$19.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "ebook" : {
+            "prix":"$11.99 ",
+            "detail": "ISBN: 9780062392190\nISBN 10: 0062392190\nImprint: HarperTeen\nOn Sale: May 3, 2016\nPages: 304 pages\nList Price: $6.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        }
+    },
+    {
+        "id": 10,
+        "titre": "THE SELECTION",
+        "vente": "April 24, 2012",
+        "image": "/img/theSelection.png",
+        "resume":"For thirty-five girls, the Selection is the chance of a lifetime. The opportunity to escape the life laid out for them since birth. To be swept up in a world of glittering gowns and priceless jewels. To live in the palace and compete for the heart of the gorgeous Prince Maxon.",
+        "contenu": "Features original black-and-white line drawings of favorite characters and moments from the world of Illéa, as well as stunningly designed hand-lettered quotes from all five Selection books, all on perforated pages that can easily be removed and displayed. The Selection Coloring Book is the perfect companion for fans of the Selection series and a captivating journey for any reader who loves a happily ever after.",
+        "detail":"details",
+        "revue":"“An engrossing tale reminiscent of Shannon Hale’s Princess Academy and Ally Condie’s Matched. Fairy-tale lovers will lose themselves in America’s alternate reality and wish that the next glamorous sequel were waiting for them.” — School Library Journal\n\n“Cass’s immensely readable debut novel is a less drastic Hunger Games, with elaborate fashion and trappings. The fast-paced action will have readers gasping for the upcoming sequel.” — Booklist\n\n“A cross between The Hunger Games (minus the bloodsport) and The Bachelor (minus the bloodsport), this trilogy launch is a lot of fun. Cass deftly builds the chemistry between America and Maxon, while stroking the embers of America’s first, forbidden love.” — Publishers Weekly\n\n“Reality T.V. meets dystopian fairy tale in Kiera Cass’s delightful debut. Charming, captivating, and filled with just the right amount of swoon!” — Kiersten White, New York Times bestselling author of Paranormalcy\n-",
+        "paperback": {
+            "prix": "$12.79",
+            "detail":"ISBN: 9780062392183\nISBN 10: 0062392182\nImprint: HarperTeen\nOn Sale: August 1, 2017\nPages: 304 pages\n$14.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "hardcover" : {
+            "prix":"$15.99",
+            "detail": "ISBN: 9780062392176\nISBN 10: 0062392174\nImprint: HarperTeen\nOn Sale: May 3, 2016\nPages: 288 pages\n$19.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "ebook" : {
+            "prix":"$11.99 ",
+            "detail": "ISBN: 9780062392190\nISBN 10: 0062392190\nImprint: HarperTeen\nOn Sale: May 3, 2016\nPages: 304 pages\nList Price: $6.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        }
+    },
+    {
+        "id": 11,
+        "vente": "August 1, 2017",
+        "titre": "THE SELECTION BOX SET",
+        "image": "/img/CassSelectionBoxSet.jpg",
+        "resume":"This gorgeous box set includes all five books in this #1 New York Times bestselling series, which has sold millions of copies and captured the hearts of readers around the world. ",
+        "contenu": "Features original black-and-white line drawings of favorite characters and moments from the world of Illéa, as well as stunningly designed hand-lettered quotes from all five Selection books, all on perforated pages that can easily be removed and displayed. The Selection Coloring Book is the perfect companion for fans of the Selection series and a captivating journey for any reader who loves a happily ever after.",
+        "detail":"details",
+        "revue":"-",
+        "paperback": {
+            "prix":" $51.96",
+            "detail": "ISBN: 9780062392176\nISBN 10: 0062392174\nImprint: HarperTeen\nOn Sale: May 3, 2016\nPages: 288 pages\n$19.99\nAge: from 13\nBISAC1: YOUNG ADULT FICTION: Science Fiction / Romance\nBISAC2: YOUNG ADULT FICTION: Romance / Historical *\nBISAC3: YOUNG ADULT FICTION: Girls & Women *\nBISAC4: YOUNG ADULT FICTION: Royalty *\nBISAC5: YOUNG ADULT FICTION: Romance / General * "
+        },
+        "hardcover" : {
+            "prix":" $0",
+            "detail": "-"
+        },
+        "ebook" : {
+            "prix":"$0 ",
+            "detail": "-"
+        }
+    },
+    {
+        "id": 12,
+        "vente": "August 1, 2017",
+        "titre": "THE SELECTION COLORING BOOK",
+        "image": "/img/CassColoringBook.jpg",
+        "resume":"The Selection Coloring Book is the perfect companion for fans of the Selection series and a captivating journey for any reader who loves a happily ever after(all five Selection books).",
+        "contenu": "Features original black-and-white line drawings of favorite characters and moments from the world of Illéa, as well as stunningly designed hand-lettered quotes from all five Selection books, all on perforated pages that can easily be removed and displayed. The Selection Coloring Book is the perfect companion for fans of the Selection series and a captivating journey for any reader who loves a happily ever after.",
+        "detail":""
+    }
+
+]
