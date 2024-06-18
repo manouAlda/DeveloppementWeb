@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de bibliothèque</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header class="entete">
+        <div class="contenu">
+            <a href="index.html" class="logo">Gestion Bibliothèque</a>
+            <nav class="navbar">
+                <ul class="navbar-liste">
+                    <li class="navbar-item">
+                        <a href="#ajout" class="navbar-lien">Ajout</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#liste" class="navbar-lien">Liste</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#detail" class="navbar-lien">Détail</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-panier">
+                <button class="nav-btn"> 
+                    <i class="fas fa-bars open">=</i>
+                    <i class="fas fa-xmark close">x</i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section ajoutLivre" id="ajout">
+                <div class="contenant">
+                    <h2 class="h2 sous-titre souligner">Ajout de livre<span class="span avant"></span></h2>
+                    <form id="ajoutForm">
+                        <label for="titre">Titre : </label>
+                        <input type="text" id="titre" class="titreLivre cadre-entree"><br>
+                        <label for="auteur">Auteur : </label>
+                        <input type="text" id="auteur" class="auteurLivre cadre-entree"><br>
+                        <label for="isbn">ISBN : </label>
+                        <input type="text" id="isbn" class="isbnLivre cadre-entree"><br>
+                        <label for="editeur">Editeur : </label>
+                        <input type="text" id="editeur" class="editeurLivre cadre-entree"><br>
+                        <label for="datePublication">Date de publication : </label>
+                        <input type="date" id="datePublication" class="dateLivre cadre-entree"><br>
+                        <label for="langue">Langue : </label>
+                        <select id="langue" class="cadre-entree">
+                            <option value="francais">Français</option>
+                            <option value="anglais">Anglais</option>
+                            <option value="chinois">Chinois</option>
+                            <option value="espagnol">Espagnol</option>
+                            <option value="malagasy">Malagasy</option>
+                            <option value="japonais">Japonais</option>
+                            <option value="russe">Russe</option>
+                        </select><br>
+                        <label for="nbrPages">Nombre de pages : </label>
+                        <input type="number" id="nbrPages" class="nbrPageLivre cadre-entree"><br>
+                        <label for="disponibilite">Disponibilité : </label>
+                        <input type="text" id="disponibilite" class="disponibiliteLivre cadre-entree"><br>
+                        <label for="etat">État : </label>
+                        <input type="text" id="etat" class="etatLivre cadre-entree"><br>
+                        <label for="emplacement">Emplacement : </label>
+                        <input type="text" id="emplacement" class="emplacementLivre cadre-entree"><br>
+                        <label for="genre">Genre : </label>
+                        <textarea id="genre" name="genre" cols="30" rows="10" class="cadre-entree"></textarea><br>
+                       
+                        
+                        <label for="resume">Résumé : </label>
+                        <textarea id="resume" name="resume" cols="30" rows="10" class="cadre-entree"></textarea><br>
+                        <button type="submit" class="btn second-btn">Ajouter</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="section liste" id="liste" style="display: none;">
+                <input type="text" id="recherche" placeholder="Rechercher par titre ou auteur" class="cadre-entree" id="recherche">
+                <div class="contenant">
+                    
+                </div>
+                <div class="pagination"></div>
+            </section>
+
+            <section class="section detail" id="detail" style="display: none;">
+                <div class="contenant"></div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="contenant">
+            <div class="footer-haut">
+                <a href="#" class="logo">Gestion de Bibliothèque</a>
+                <ul class="footer-liste">
+                    <li><a href="#" class="footer-lien categorie-lien" data-genre="Tous">Tous</a></li>
+                    <li><a href="#" class="footer-lien categorie-lien" data-genre="Science-fiction">Science-fiction</a></li>
+                    <li><a href="#" class="footer-lien categorie-lien" data-genre="Fantasy">Fantasy</a></li>
+                    <li><a href="#" class="footer-lien categorie-lien" data-genre="Histoire">Histoire</a></li>
+                    <li><a href="#" class="footer-lien categorie-lien" data-genre="Biographie">Biographie</a></li>
+                    <li><a href="#" class="footer-lien categorie-lien" data-genre="Roman">Roman</a></li>
+                </ul>
+            </div>
+            <div class="footer-bas">
+                <p class="copyright">&copy; 2024 All right reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js" defer></script>
+    <script src="./js/all.min.js"></script>    
+
+    <script>
+        const LIVRES_PAR_PAGE = 5;
+        let pageActuelle = 1;
+        let genreFiltre = "Tous";
+        let rechercheFiltre = "";
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Bouton menu du navbar 
+
+            const navbar = document.querySelector(".navbar");
+            const navbarLiens = document.querySelectorAll(".navbar-lien");
+            const navbarBtn = document.querySelector(".nav-btn"); 
+            const produits=[];
+
+            const navbarActive = function () {
+                navbar.classList.toggle("active");
+                navbarBtn.classList.toggle("active");
+            }
+            navbarBtn.addEventListener('click', navbarActive);
+
+            const fermerNavbar = function () {
+                navbar.classList.remove("active");
+                navbarBtn.classList.remove("active");
+            }
+            for (let i = 0; i < navbarLiens.length; i++) {
+                navbarLiens[i].addEventListener('click', fermerNavbar);
+            }
+
+            // L'entete reste à sa place si on scroll (> 100px)
+
+            const entete = document.querySelector(".entete");
+
+            const activeEntete = function () {
+                if( window.scrollY > 100 ) {
+                    entete.classList.add("active");
+                }
+                else {
+                    entete.classList.remove("active");
+                }
+            }
+            window.addEventListener('scroll', activeEntete);
+
+
+
+            if (!localStorage.getItem('livres')) {
+                // Ajoutez des livres prédéfinis
+                const livresPredefinis = [
+                    {
+                        titre: "Livre 1",
+                        auteur: "Auteur 1",
+                        isbn: "1234567890",
+                        editeur: "Editeur 1",
+                        datePublication: "2023-01-01",
+                        langue: "Français",
+                        nbrPages: 200,
+                        disponibilite: "Disponible",
+                        etat: "Neuf",
+                        emplacement: "A1",
+                        genre: "Science-fiction",
+                        resume: "Résumé du livre 1"
+                    },
+                    {
+                        titre: "Livre 2",
+                        auteur: "Auteur 2",
+                        isbn: "0987654321",
+                        editeur: "Editeur 2",
+                        datePublication: "2022-01-01",
+                        langue: "Anglais",
+                        nbrPages: 300,
+                        disponibilite: "Disponible",
+                        etat: "Bon état",
+                        emplacement: "B2",
+                        genre: "Fantasy",
+                        resume: "Résumé du livre 2"
+                    }
+                ];
+                localStorage.setItem('livres', JSON.stringify(livresPredefinis));
+            }
+
+            document.querySelectorAll('.navbar-lien').forEach(lien => {
+                lien.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const sectionId = lien.getAttribute('href').substring(1);
+                    afficherSection(sectionId);
+                });
+            });
+
+            document.getElementById('ajoutForm').addEventListener('submit', ajouterLivre);
+            document.querySelectorAll('.categorie-lien').forEach(lien => {
+                lien.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    genreFiltre = lien.getAttribute('data-genre');
+                    afficherListeLivres();
+                });
+            });
+
+            document.getElementById('recherche').addEventListener('input', (event) => {
+                rechercheFiltre = event.target.value.toLowerCase();
+                afficherListeLivres();
+            });
+
+            afficherSection('ajout');
+        });
+
+        function afficherSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+
+            if (sectionId === 'liste') {
+                afficherListeLivres();
+            }
+        }
+
+        function ajouterLivre(event) {
+            event.preventDefault();
+
+            const titre = document.getElementById('titre').value.trim();
+            const auteur = document.getElementById('auteur').value.trim();
+            const isbn = document.getElementById('isbn').value.trim();
+            const editeur = document.getElementById('editeur').value.trim();
+            const datePublication = document.getElementById('datePublication').value;
+            const langue = document.getElementById('langue').value;
+            const nbrPages = document.getElementById('nbrPages').value;
+            const disponibilite = document.getElementById('disponibilite').value.trim();
+            const etat = document.getElementById('etat').value.trim();
+            const emplacement = document.getElementById('emplacement').value.trim();
+            const genre = document.getElementById('genre').value.trim();
+            const resume = document.getElementById('resume').value.trim();
+
+            if (!titre || !auteur || !isbn || !editeur || !datePublication || !langue || !nbrPages || !disponibilite || !etat || !emplacement || !genre || !resume) {
+                alert("Veuillez remplir tous les champs.");
+                return;
+            }
+
+            const livre = {
+                titre, auteur, isbn, editeur, datePublication, langue, nbrPages, disponibilite, etat, emplacement, genre, resume
+            };
+
+            let livres = JSON.parse(localStorage.getItem('livres')) || [];
+            livres.push(livre);
+            localStorage.setItem('livres', JSON.stringify(livres));
+
+            afficherListeLivres();
+            afficherSection('liste');
+        }
+
+        function afficherListeLivres() {
+            const livres = JSON.parse(localStorage.getItem('livres')) || [];
+            const sectionListe = document.querySelector('.section#liste .contenant');
+            const livresFiltres = livres.filter(livre => 
+                (genreFiltre === "Tous" || livre.genre.toLowerCase().includes(genreFiltre.toLowerCase())) && 
+                (livre.titre.toLowerCase().includes(rechercheFiltre) || livre.auteur.toLowerCase().includes(rechercheFiltre))
+            );
+            const livresAffiches = livresFiltres.slice((pageActuelle - 1) * LIVRES_PAR_PAGE, pageActuelle * LIVRES_PAR_PAGE);
+            let listeHtml = '<h2 class="h2 sous-titre souligner">Liste des livres<span class="span avant"></span></h2>';
+            listeHtml += '<ul>';
+
+            livresAffiches.forEach((livre, index) => {
+                const livreIndex = (pageActuelle - 1) * LIVRES_PAR_PAGE + index;
+                listeHtml += `<li>${livre.titre} par ${livre.auteur} (ISBN: ${livre.isbn}) 
+                    <button onclick="afficherDetailsLivre(${livreIndex})">Détail</button>
+                    <button onclick="supprimerLivre(${livreIndex})">Supprimer</button>
+                </li>`;
+            });
+
+            listeHtml += '</ul>';
+            sectionListe.innerHTML = listeHtml;
+
+            afficherPagination(livresFiltres.length);
+        }
+
+        function afficherPagination(totalLivres) {
+            const pagination = document.querySelector('.pagination');
+            const totalPages = Math.ceil(totalLivres / LIVRES_PAR_PAGE);
+            let paginationHtml = '';
+
+            for (let i = 1; i <= totalPages; i++) {
+                paginationHtml += `<button onclick="changerPage(${i})" ${i === pageActuelle ? 'disabled' : ''}>${i}</button>`;
+            }
+
+            pagination.innerHTML = paginationHtml;
+        }
+
+        function changerPage(nouvellePage) {
+            pageActuelle = nouvellePage;
+            afficherListeLivres();
+        }
+
+        function afficherDetailsLivre(index) {
+            const livres = JSON.parse(localStorage.getItem('livres')) || [];
+            const livre = livres[index];
+            const sectionDetail = document.querySelector('.section#detail .contenant');
+
+            let detailsHtml = '<h2 class="h2 sous-titre souligner">Détails du livre<span class="span avant"></span></h2>';
+            detailsHtml += `
+                <p><strong>Titre :</strong> ${livre.titre}</p>
+                <p><strong>Auteur :</strong> ${livre.auteur}</p>
+                <p><strong>ISBN :</strong> ${livre.isbn}</p>
+                <p><strong>Editeur :</strong> ${livre.editeur}</p>
+                <p><strong>Date de publication :</strong> ${livre.datePublication}</p>
+                <p><strong>Langue :</strong> ${livre.langue}</p>
+                <p><strong>Nombre de pages :</strong> ${livre.nbrPages}</p>
+                <p><strong>Disponibilité :</strong> ${livre.disponibilite}</p>
+                <p><strong>État :</strong> ${livre.etat}</p>
+                <p><strong>Emplacement :</strong> ${livre.emplacement}</p>
+                <p><strong>Genre :</strong> ${livre.genre}</p>
+                <p><strong>Résumé :</strong> ${livre.resume}</p>
+            `;
+            sectionDetail.innerHTML = detailsHtml;
+            afficherSection('detail');
+        }
+
+        function supprimerLivre(index) {
+            let livres = JSON.parse(localStorage.getItem('livres')) || [];
+            livres.splice(index, 1);
+            localStorage.setItem('livres', JSON.stringify(livres));
+            afficherListeLivres();
+        }
+    </script>
+</body>
+</html>
